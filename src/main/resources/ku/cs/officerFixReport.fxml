@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="root" prefHeight="512.0" prefWidth="800.0" styleClass="rootHome" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ku.cs.controllers.officer.OfficerFixReportController">
+   <children>
+      <Button layoutX="172.0" layoutY="-1.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="456.0" style="-fx-background-radius: 0 0 45 45; -fx-background-color: ECCCB2;" />
+      <Button layoutX="52.0" layoutY="95.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="720.0" style="-fx-background-radius: 45 45; -fx-background-color: F5E8C7;" />
+      <ChoiceBox fx:id="statusBox" layoutX="202.0" layoutY="105.0" prefHeight="25.0" prefWidth="159.0" style="-fx-background-color: ECCCB2;" />
+      <TextField fx:id="fixDetailTextField" alignment="TOP_LEFT" layoutX="58.0" layoutY="183.0" prefHeight="260.0" prefWidth="710.0" promptText="รายละเอียด" style="-fx-background-radius: 30 30;" />
+      <Label layoutX="78.0" layoutY="109.0" text="จัดการสถานะเรื่องร้องเรียน:" />
+      <Label layoutX="78.0" layoutY="138.0" text="รายละเอียดการจัดการเรื่องร้องเรียน:" />
+      <Button layoutX="57.0" layoutY="452.0" mnemonicParsing="false" onAction="#handlePostButton" prefWidth="67.0" styleClass="buttonForUserInappropriateness" stylesheets="@forButton/light.css" text="post" />
+      <Label fx:id="errorLabel" layoutX="157.0" layoutY="456.0" prefHeight="17.0" prefWidth="221.0" text="errorLabel" textFill="RED" />
+      <ImageView fitHeight="57.0" fitWidth="104.0" layoutX="717.0" layoutY="448.0" onMouseClicked="#handleBackButton" onMouseDragEntered="#handleBackButton" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/back.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="76.0" fitWidth="411.0" layoutX="196.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/ComplaintsHandling.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="successLabel" layoutX="157.0" layoutY="456.0" prefHeight="17.0" prefWidth="221.0" text="successLabel" textFill="#029941" />
+   </children>
+   <stylesheets>
+      <URL value="@forButton/dark.css" />
+      <URL value="@forButton/light.css" />
+   </stylesheets>
+</AnchorPane>

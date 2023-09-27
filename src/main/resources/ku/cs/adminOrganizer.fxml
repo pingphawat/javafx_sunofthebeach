@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="512.0" prefWidth="800.0" styleClass="rootHome" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ku.cs.controllers.admin.AdminOrganizerController">
+   <children>
+      <VBox layoutX="708.0" layoutY="462.0" prefHeight="44.0" prefWidth="60.0">
+         <effect>
+            <DropShadow height="6.0" radius="2.75" width="7.0" />
+         </effect>
+      </VBox>
+      <VBox layoutX="38.0" layoutY="104.0" prefHeight="364.0" prefWidth="726.0">
+         <children>
+            <ScrollPane hbarPolicy="NEVER" prefHeight="583.0" prefWidth="721.0" style="-fx-background-color: FFFFF;" vbarPolicy="ALWAYS">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1406.0" prefWidth="696.0">
+                     <children>
+                        <VBox layoutX="314.0" layoutY="1062.0" prefHeight="268.0" prefWidth="291.0">
+                           <children>
+                              <ImageView fitHeight="281.0" fitWidth="268.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/organizer/Prim2.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </VBox>
+                        <VBox layoutX="331.0" layoutY="18.0" prefHeight="141.0" prefWidth="185.0">
+                           <children>
+                              <Label alignment="TOP_RIGHT" contentDisplay="RIGHT" text="Ping">
+                                 <font>
+                                    <Font size="46.0" />
+                                 </font>
+                              </Label>
+                              <Label text="Pawat Wongtawaradat">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <Button mnemonicParsing="false" prefHeight="33.0" prefWidth="122.0" styleClass="pingbutton" stylesheets="@forButton/light.css" text="6410401124">
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </VBox>
+                        <VBox layoutX="340.0" layoutY="733.0" prefHeight="182.0" prefWidth="253.0">
+                           <children>
+                              <Label text="Ta">
+                                 <font>
+                                    <Font size="46.0" />
+                                 </font>
+                              </Label>
+                              <Label text="Nutthakritta Kaopattanaskul">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <Button mnemonicParsing="false" prefHeight="33.0" prefWidth="122.0" styleClass="tabutton" stylesheets="@forButton/light.css" text="6410401043">
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </VBox>
+                        <VBox layoutX="19.0" layoutY="34.0" prefHeight="300.0" prefWidth="289.0">
+                           <children>
+                              <ImageView fitHeight="296.0" fitWidth="287.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/organizer/Ping2.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </VBox>
+                        <VBox layoutX="23.0" layoutY="728.0" prefHeight="306.0" prefWidth="294.0">
+                           <children>
+                              <ImageView fitHeight="301.0" fitWidth="312.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/organizer/Ta2.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </VBox>
+                        <VBox alignment="TOP_RIGHT" layoutX="82.0" layoutY="460.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="132.0" prefWidth="176.0">
+                           <opaqueInsets>
+                              <Insets right="5.0" />
+                           </opaqueInsets>
+                           <children>
+                              <Label text="Meimay">
+                                 <font>
+                                    <Font size="46.0" />
+                                 </font>
+                              </Label>
+                              <Label text="Paramaet Kittirart">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <Button mnemonicParsing="false" prefHeight="33.0" prefWidth="122.0" styleClass="meimaybutton" stylesheets="@forButton/light.css" text="6410401108">
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </VBox>
+                        <VBox layoutX="305.0" layoutY="401.0" prefHeight="295.0" prefWidth="294.0">
+                           <children>
+                              <ImageView fitHeight="295.0" fitWidth="273.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/organizer/Meimay2.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </VBox>
+                        <VBox alignment="TOP_RIGHT" layoutX="65.0" layoutY="1103.0" prefHeight="195.0" prefWidth="226.0">
+                           <children>
+                              <Label text="Prim">
+                                 <font>
+                                    <Font size="46.0" />
+                                 </font>
+                              </Label>
+                              <Label text="Kanyakron Sukanuyuth">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <Button mnemonicParsing="false" prefHeight="33.0" prefWidth="122.0" styleClass="primbutton" stylesheets="@forButton/light.css" text="6410406509">
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </VBox>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </ScrollPane>
+         </children>
+      </VBox>
+      <Button layoutX="220.0" layoutY="-1.0" mnemonicParsing="false" prefHeight="88.0" prefWidth="368.0" style="-fx-background-color: #FFE9AE; -fx-background-radius: 0 0 50 50;" />
+      <VBox alignment="CENTER" prefHeight="89.0" prefWidth="799.0">
+         <children>
+            <ImageView fitHeight="139.0" fitWidth="318.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/TopicOrganizer.png" />
+               </image>
+            </ImageView>
+         </children>
+      </VBox>
+      <ImageView fitHeight="53.0" fitWidth="88.0" layoutX="715.0" layoutY="458.0" onMouseClicked="#handleBackButton" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/back.png" />
+         </image>
+      </ImageView>
+   </children>
+   <stylesheets>
+      <URL value="@forButton/dark.css" />
+      <URL value="@forButton/light.css" />
+   </stylesheets>
+</AnchorPane>

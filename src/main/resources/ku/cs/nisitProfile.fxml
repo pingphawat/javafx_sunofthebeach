@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="512.0" prefWidth="800.0" styleClass="rootHome" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ku.cs.controllers.nisit.NisitProfileController">
+   <children>
+      <Button layoutX="329.0" layoutY="106.0" mnemonicParsing="false" prefHeight="330.0" prefWidth="452.0" style="-fx-background-color: FFE9AE; -fx-background-radius: 30 30;" />
+      <Button layoutX="23.0" layoutY="104.0" mnemonicParsing="false" prefHeight="384.0" prefWidth="289.0" style="-fx-background-color: FFE9AE; -fx-background-radius: 30 30;" />
+      <Button layoutX="196.0" mnemonicParsing="false" prefHeight="89.0" prefWidth="395.0" style="-fx-background-color: FFE9AE; -fx-background-radius: 0 0 30 30;" />
+      <Button layoutX="591.0" layoutY="383.0" mnemonicParsing="false" onAction="#changePasswordButton" prefHeight="42.0" prefWidth="161.0" styleClass="saveChangesOfProfilebutton" stylesheets="@NisitOfButton/report_organizer.css" text="บันทึกการเปลี่ยนแปลง">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="247.0" layoutY="346.0" mnemonicParsing="false" onAction="#uploadButton" styleClass="uploadOfProfilebutton" stylesheets="@NisitOfButton/report_organizer.css" text="Upload" />
+      <ImageView fx:id="profile" fitHeight="220.0" fitWidth="227.0" layoutX="52.0" layoutY="116.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/profile.png" />
+         </image>
+      </ImageView>
+
+
+      <Label layoutX="41.0" layoutY="403.0" text="Name" textFill="#74410b">
+
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="355.0" layoutY="169.0" text="Username">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="354.0" layoutY="227.0" text="Present Password">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="353.0" layoutY="341.0" text="Confirm Password">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="usernameTextField" editable="false" layoutX="503.0" layoutY="166.0" prefHeight="32.0" prefWidth="250.0" promptText="Username" style="-fx-background-color: FFD1D1;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="oldPasswordField" layoutX="502.0" layoutY="222.0" prefHeight="32.0" prefWidth="250.0" promptText="Present Password" style="-fx-background-color: C1EFFF;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </PasswordField>
+      <PasswordField fx:id="newPasswordField" layoutX="502.0" layoutY="285.0" prefHeight="32.0" prefWidth="250.0" promptText="New Password" style="-fx-background-color: C1EFFF;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </PasswordField>
+      <PasswordField fx:id="confirmField" layoutX="502.0" layoutY="338.0" prefHeight="32.0" prefWidth="250.0" promptText="Confirm" style="-fx-background-color: FFD1D1;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </PasswordField>
+      <Label layoutX="40.0" layoutY="448.0" text="Surname" textFill="#74410b">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+
+
+      <Label fx:id="nameLabel" layoutX="132.0" layoutY="378.0" text="Name" textFill="#74410b">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Label>
+
+      <Label fx:id="surnameLabel" layoutX="134.0" layoutY="426.0" text="Surname" textFill="#74410b">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="73.0" fitWidth="378.0" layoutX="217.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Nisit_Profile.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="409.0" layoutX="350.0" layoutY="117.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/passwordNisit.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="354.0" layoutY="290.0" text="New Password">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="48.0" fitWidth="86.0" layoutX="699.0" layoutY="448.0" onMouseClicked="#handleBackButton" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/back.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="errorLabel" layoutX="357.0" layoutY="395.0" prefHeight="27.0" prefWidth="204.0" text="errorLabel" textFill="#f20a0a">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label fx:id="successImageLabel" layoutX="43.0" layoutY="350.0" text="successImageLabel" textFill="#0e8b42">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="successLabel" layoutX="359.0" layoutY="395.0" prefHeight="27.0" prefWidth="204.0" text="successLabel" textFill="#0e7b3f">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="505.0" layoutY="267.0" text="โปรดกรอกรหัสผ่านขั้นต่ำ 3 ตัว">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+   </children>
+   <stylesheets>
+      <URL value="@forButton/dark.css" />
+      <URL value="@forButton/light.css" />
+   </stylesheets>
+</AnchorPane>

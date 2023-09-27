@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="512.0" prefWidth="800.0" styleClass="rootHome" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ku.cs.controllers.admin.NisitDetailController">
+   <children>
+      <Button layoutX="119.0" layoutY="-4.0" mnemonicParsing="false" prefHeight="89.0" prefWidth="565.0" style="-fx-background-radius: 0 0 45 45; -fx-background-color: ECCCB2;" />
+      <Button layoutX="531.0" layoutY="112.0" mnemonicParsing="false" prefHeight="320.0" prefWidth="250.0" style="-fx-background-radius: 45 45; -fx-background-color: FFDBA4;" />
+      <Button layoutX="46.0" layoutY="130.0" mnemonicParsing="false" prefHeight="313.0" prefWidth="441.0" style="-fx-background-radius: 45 45; -fx-background-color: ECCCB2;" />
+      <Button layoutX="21.0" layoutY="97.0" mnemonicParsing="false" prefHeight="105.0" prefWidth="497.0" style="-fx-background-radius: 45 45; -fx-background-color: FFDBA4;" />
+      <Label layoutX="174.0" layoutY="121.0" text="Username:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Label>
+      <Label fx:id="usernameLabel" layoutX="263.0" layoutY="116.0" text="usernameLabel">
+         <font>
+            <Font size="19.0" />
+         </font></Label>
+      <Label layoutX="174.0" layoutY="156.0" text="Name:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Label>
+      <Label fx:id="nameLabel" layoutX="231.0" layoutY="152.0" text="nameLabel">
+         <font>
+            <Font size="19.0" />
+         </font></Label>
+      <Label layoutX="61.0" layoutY="224.0" text="Surname:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Label>
+      <Label fx:id="surnameLabel" layoutX="145.0" layoutY="224.0" text="surnameLabel">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="61.0" layoutY="263.0" text="สถานะ:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Label>
+      <Label fx:id="loginStatusLabel" layoutX="124.0" layoutY="263.0" text="loginStatusLabel">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="61.0" layoutY="303.0" text="วันเวลาที่เข้าสู่ระบบล่าสุด:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Label>
+      <Label fx:id="lastLoginDateTimeLabel" layoutX="237.0" layoutY="304.0" text="lastLoginDateTimeLabel">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="64.0" layoutY="345.0" text="สถานะของบัญชี:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Label>
+      <Label fx:id="nisitStatusLabel" layoutX="183.0" layoutY="345.0" text="nisitStatusLabel">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="63.0" layoutY="387.0" text="จำนวนครั้งที่พยายามเข้าสู่ระบบ (ถูกระงับ):">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Label>
+      <Label fx:id="loginAttemptLabel" layoutX="336.0" layoutY="389.0" text="loginAttemptLabel">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <ImageView fx:id="profile" fitHeight="264.0" fitWidth="212.0" layoutX="550.0" layoutY="139.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="57.0" fitWidth="104.0" layoutX="707.0" layoutY="451.0" onMouseClicked="#handleBackButton" onMouseDragEntered="#handleBackButton" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/back.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="108.0" fitWidth="521.0" layoutX="136.0" layoutY="-4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Nisit_Detail.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="118.0" fitWidth="128.0" layoutX="41.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/owl.png" />
+         </image>
+      </ImageView>
+   </children>
+   <stylesheets>
+      <URL value="@forButton/dark.css" />
+      <URL value="@forButton/light.css" />
+   </stylesheets>
+</AnchorPane>

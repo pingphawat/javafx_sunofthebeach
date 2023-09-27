@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="512.0" prefWidth="800.0" styleClass="rootHome" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ku.cs.controllers.nisit.NisitReportController">
+   <children>
+      <Button layoutX="256.0" layoutY="-3.0" mnemonicParsing="false" prefHeight="96.0" prefWidth="293.0" style="-fx-background-color: FFB3B3; -fx-background-radius: 0 0 50 50;" />
+      <ImageView fitHeight="83.0" fitWidth="95.0" layoutX="699.0" layoutY="451.0" onMouseClicked="#handleBackButton" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/back.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="38.0" layoutY="146.0" mnemonicParsing="false" prefHeight="313.0" prefWidth="551.0" styleClass="centerbutton2" stylesheets="@forButton/light.css" />
+      <Button layoutX="37.0" layoutY="112.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="552.0" styleClass="headcenterbutton1" stylesheets="@forButton/light.css" />
+      <ImageView fitHeight="120.0" fitWidth="262.0" layoutX="310.0" layoutY="-11.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Nisit_Complaint.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="titleTextField" layoutX="70.0" layoutY="125.0" prefHeight="39.0" prefWidth="494.0" promptText="หัวข้อเรื่องร้องเรียน" style="-fx-background-radius: 50 50;">
+         <font>
+            <Font size="18.0" />
+         </font></TextField>
+      <TextField fx:id="detailTextField" alignment="TOP_LEFT" layoutX="62.0" layoutY="189.0" prefHeight="260.0" prefWidth="502.0" promptText="รายละเอียดเรื่องร้องเรียน" style="-fx-background-radius: 5 5 50 50;" />
+      <ChoiceBox fx:id="typeBox" layoutX="605.0" layoutY="160.0" prefWidth="150.0" style="-fx-background-color: FFB3B3;" />
+      <Label fx:id="errorLabel" layoutX="446.0" layoutY="470.0" prefHeight="18.0" prefWidth="139.0" text="errorLabel" textFill="RED" />
+
+      <ImageView fitHeight="46.0" fitWidth="105.0" layoutX="38.0" layoutY="462.0" onMouseClicked="#handlePostButton" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Nisit_writeComplaintPost.png" />
+         </image>
+      </ImageView>
+      <VBox layoutX="604.0" layoutY="117.0" prefHeight="35.0" prefWidth="150.0">
+         <children>
+            <ImageView fitHeight="51.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/Nisit_Layer.png" />
+               </image>
+            </ImageView>
+         </children>
+      </VBox>
+      <ChoiceBox fx:id="typeDetailBox" layoutX="605.0" layoutY="231.0" prefWidth="150.0" style="-fx-background-color: FFB3B3;" />
+      <Button layoutX="605.0" layoutY="193.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="150.0" style="-fx-background-color: FF8787; -fx-background-radius: 15 15 0 0;" />
+      <Label layoutX="626.0" layoutY="199.0" text="ข้อมูลเพิ่มเติม">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="successLabel" layoutX="446.0" layoutY="470.0" prefHeight="18.0" prefWidth="139.0" text="successLabel" textFill="#048e1b" />
+   </children>
+   <stylesheets>
+      <URL value="@forButton/dark.css" />
+      <URL value="@forButton/light.css" />
+   </stylesheets>
+</AnchorPane>

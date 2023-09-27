@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane fx:id="root" prefHeight="512.0" prefWidth="800.0" styleClass="rootHome" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ku.cs.controllers.nisit.NisitAboutProgramController">
+   <children>
+      <Button layoutX="69.0" mnemonicParsing="false" prefHeight="85.0" prefWidth="674.0" style="-fx-background-color: F4BFBF; -fx-background-radius: 0 0 30 30;" />
+      <VBox alignment="CENTER" prefHeight="78.0" prefWidth="803.0">
+         <children>
+            <ImageView fitHeight="97.0" fitWidth="619.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/Howto.png" />
+               </image>
+            </ImageView>
+         </children>
+      </VBox>
+      <ImageView fitHeight="83.0" fitWidth="95.0" layoutX="709.0" layoutY="461.0" onMouseClicked="#handleBackButton" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/back.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="28.0" layoutY="108.0" mnemonicParsing="false" prefHeight="348.0" prefWidth="740.0" style="-fx-background-color: F4BFBF; -fx-background-radius: 30 30;" />
+      <Button layoutX="48.0" layoutY="118.0" mnemonicParsing="false" prefHeight="298.0" prefWidth="705.0" style="-fx-background-color: FFFFFF; -fx-background-radius: 30 30;" />
+      <ScrollPane hbarPolicy="NEVER" layoutX="58.0" layoutY="126.0" prefHeight="282.0" prefWidth="686.0" vbarPolicy="ALWAYS">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1133.0" prefWidth="686.0">
+               <children>
+                  <VBox prefHeight="282.0" prefWidth="674.0">
+                     <children>
+                        <ImageView fitHeight="376.0" fitWidth="674.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/tutorial0201.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="376.0" fitWidth="674.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/tutorial0202.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="376.0" fitWidth="674.0" layoutX="10.0" layoutY="386.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/tutorial0203.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+   </children>
+   <stylesheets>
+      <URL value="@forButton/dark.css" />
+      <URL value="@forButton/light.css" />
+   </stylesheets>
+</AnchorPane>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="512.0" prefWidth="800.0" styleClass="rootHome" stylesheets="@forButton/light.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ku.cs.controllers.main.HomeController">
+   <children>
+      <VBox layoutX="517.0" layoutY="139.0" prefHeight="35.0" prefWidth="258.0">
+         <children>
+            <TextField fx:id="userID" prefHeight="32.0" prefWidth="264.0" promptText="username" style="-fx-background-color: C4DFAA;">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+         </children>
+      </VBox>
+      <VBox layoutX="414.0" layoutY="242.0" prefHeight="39.0" prefWidth="100.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#handleRegisterButton" prefHeight="33.0" prefWidth="82.0" styleClass="registerButton" stylesheets="@forButton/light.css" text="register">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+      <VBox layoutX="706.0" layoutY="241.0" prefHeight="39.0" prefWidth="74.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#handleLoginButton" prefHeight="38.0" prefWidth="70.0" styleClass="loginbutton" stylesheets="@forButton/light.css" text="login">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+      <TextField fx:id="hiddenPassword" layoutX="520.0" layoutY="197.0" prefHeight="32.0" prefWidth="252.0" style="-fx-background-color: FAF4B7;" visible="false" />
+      <PasswordField fx:id="userPassword" layoutX="519.0" layoutY="198.0" prefHeight="32.0" prefWidth="252.0" promptText="password" style="-fx-background-color: FAF4B7;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </PasswordField>
+      <Label fx:id="errorLabel" layoutX="517.0" layoutY="113.0" prefHeight="22.0" prefWidth="254.0" text="กรุณาระบุรหัสผ่าน" textFill="#f60d0d" />
+      <CheckBox fx:id="showPassword" layoutX="746.0" layoutY="206.0" mnemonicParsing="false" onAction="#handlePasswordCheckbox" />
+      <VBox fx:id="vboxLeft" prefHeight="512.0" prefWidth="400.0" style="-fx-background-color: FFFFFF;" />
+      <VBox layoutX="411.0" layoutY="446.0" prefHeight="64.0" prefWidth="63.0">
+         <children>
+            <VBox fx:id="vbox1" prefHeight="512.0" prefWidth="406.0" />
+            <Button mnemonicParsing="false" onAction="#handleOrganizerButton" onMouseClicked="#handleOrganizerButton" prefHeight="67.0" prefWidth="57.0" styleClass="buttonForOrgranizer" stylesheets="@forButton/light.css">
+               <graphic>
+                  <ImageView fitHeight="54.0" fitWidth="41.0" onMouseClicked="#handleOrganizerButton" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/icon_Organizer.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </VBox>
+      <VBox fx:id="vboxLogin" alignment="CENTER" layoutX="405.0" layoutY="9.0" prefHeight="104.0" prefWidth="402.0">
+         <children>
+            <ImageView fx:id="login" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" styleClass="login" />
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" layoutX="399.0" layoutY="141.0" prefHeight="35.0" prefWidth="120.0">
+         <children>
+            <ImageView fx:id="username" fitHeight="36.0" fitWidth="99.0" pickOnBounds="true" preserveRatio="true" styleClass="userName" />
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" layoutX="401.0" layoutY="193.0" prefHeight="39.0" prefWidth="120.0">
+         <children>
+            <ImageView fx:id="password" fitHeight="29.0" fitWidth="108.0" pickOnBounds="true" preserveRatio="true" styleClass="passWord" />
+         </children>
+      </VBox>
+      <VBox layoutX="734.0" layoutY="449.0" prefHeight="62.0" prefWidth="57.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#handleAboutProgramButton" prefHeight="57.0" prefWidth="57.0" styleClass="buttonForHowToProgram" stylesheets="@forButton/light.css">
+               <graphic>
+                  <ImageView fitHeight="39.0" fitWidth="41.0" onMouseClicked="#handleAboutProgramButton" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/icon_Tutalrial.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </VBox>
+      <VBox fx:id="vVbox" prefHeight="512.0" prefWidth="400.0">
+         <children>
+            <Button mnemonicParsing="false" prefHeight="549.0" prefWidth="423.0" style="-fx-background-color: FFDBA4;" />
+         </children>
+      </VBox>
+      <Button fx:id="mode" layoutX="748.0" layoutY="13.0" mnemonicParsing="false" onAction="#handleDarkMode" prefHeight="30.0" prefWidth="48.0" styleClass="button-mode" stylesheets="@forButton/light.css" text="Dark " textAlignment="CENTER" />
+
+   </children>
+</AnchorPane>

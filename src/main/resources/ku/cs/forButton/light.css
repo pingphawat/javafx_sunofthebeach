@@ -1,0 +1,1259 @@
+//buttonForAdmin
+.handleProfileButtonBlue
+{
+    -fx-background-color : #C0E4F6;
+    -fx-background-radius : 50 50;
+}
+.handleProfileButtonBlue:hover
+{
+    -fx-background-color : #A8D1E7;
+    -fx-background-radius : 50 50;
+}
+.handleProfileButtonBlue:pressed
+{
+    -fx-background-color : #C0E4F6;
+    -fx-background-radius : 50 50;
+}
+
+.handleOfficerAboutProgramButtonOrange
+{
+    -fx-background-color : #F4D19B;
+    -fx-background-radius : 50 50;
+}
+.handleOfficerAboutProgramButtonOrange:hover
+{
+    -fx-background-color : #DEBA9D;
+    -fx-background-radius : 50 50;
+}
+.handleOfficerAboutProgramButtonOrange:pressed
+{
+    -fx-background-color : #F4D19B;
+    -fx-background-radius : 50 50;
+}
+
+.handleOfficerOrganizerButtonGreen
+{
+    -fx-background-color : #C9E4C5;
+    -fx-background-radius : 50 50;
+}
+.handleOfficerOrganizerButtonGreen:hover
+{
+    -fx-background-color : #CDF0EA;
+    -fx-background-radius : 50 50;
+}
+.handleOfficerOrganizerButtonGreen:pressed
+{
+    -fx-background-color : #C9E4C5;
+    -fx-background-radius : 50 50;
+}
+
+//AdminProfile
+.handleAdminProfileButtonWhite
+{
+    -fx-background-color : #FFFFFF;
+    -fx-background-radius : 30 30;
+}
+.handleAdminProfileButtonWhite:pressed
+{
+    -fx-background-color : #FFFFFF;
+    -fx-background-radius : 30 30;
+}
+
+.saveChangesOfProfilebuttonYellow
+{
+    -fx-background-color : #F2D388;
+    -fx-background-radius : 50 50;
+}
+.saveChangesOfProfilebuttonYellow:hover
+{
+    -fx-background-color : #F8F9D7;
+    -fx-background-radius : 50 50;
+}
+.saveChangesOfProfilebuttonYellow:pressed
+{
+    -fx-background-color : #F2D388;
+    -fx-background-radius : 50 50;
+}
+
+//AdminHome
+.buttonForTop1
+{
+    -fx-background-color : #F38BA0;
+    -fx-background-radius : 50 50 50 50;
+}
+.buttonForTop1:hover
+{
+    -fx-background-color : #F4DFBA;
+    -fx-background-radius : 50 50 50 50;
+}
+.buttonForTop1:pressed
+{
+    -fx-background-color : #F38BA0;
+    -fx-background-radius : 50 50 50 50;
+}
+
+.buttonForTop2
+{
+    -fx-background-color : #FFBCBC;
+    -fx-background-radius : 50 50 50 50;
+}
+.buttonForTop2:hover
+{
+    -fx-background-color : #F6E6E4;
+    -fx-background-radius : 50 50 50 50;
+}
+.buttonForTop2:pressed
+{
+    -fx-background-color : #FFBCBC;
+    -fx-background-radius : 50 50 50 50;
+}
+
+.buttonForTop2
+{
+    -fx-background-color : #FFBCBC;
+    -fx-background-radius : 50 50 50 50;
+}
+.buttonForTop2:hover
+{
+    -fx-background-color : #F6E6E4;
+    -fx-background-radius : 50 50 50 50;
+}
+.buttonForTop2:pressed
+{
+    -fx-background-color : #C1A3A3;
+    -fx-background-radius : 50 50 50 50;
+}
+
+.buttonForTop3
+{
+    -fx-background-color : #E2BCB7;
+    -fx-background-radius : 50 50 50 50;
+}
+.buttonForTop3:hover
+{
+    -fx-background-color : #F6E6E4;
+    -fx-background-radius : 50 50 50 50;
+}
+.buttonForTop3:pressed
+{
+    -fx-background-color : #E2BCB7;
+    -fx-background-radius : 50 50 50 50;
+}
+
+//createOfficerAccount
+.buttonForSaveChanges
+{
+    -fx-background-color : #76BA99;
+    -fx-background-radius : 50 50 50 50;
+}
+.buttonForSaveChanges:hover
+{
+    -fx-background-color : #A0D995;
+    -fx-background-radius : 50 50 50 50;
+}
+.buttonForSaveChanges:pressed
+{
+    -fx-background-color : #76BA99;
+    -fx-background-radius : 50 50 50 50;
+}
+
+//inappropriate
+.buttonForCenter1
+{
+    -fx-background-color : #AAC4FF;
+    -fx-background-radius : 50 50 50 50;
+}
+.buttonForCenter1:hover
+{
+    -fx-background-color : #EEF1FF;
+    -fx-background-radius : 50 50 50 50;
+}
+.buttonForCenter1:pressed
+{
+    -fx-background-color : #AAC4FF;
+    -fx-background-radius : 50 50 50 50;
+}
+
+//NisitOfButton
+//HEADDDDDDDDDD
+.headerOrganizingButtonBlue
+{
+    -fx-background-color : #C0E4F6;
+    -fx-background-radius : 50 50;
+}
+.headerOrganizingButtonBlue:hover
+{
+    -fx-background-color : #A8D1E7;
+    -fx-background-radius : 50 50;
+}
+.headerOrganizingButtonBlue:pressed
+{
+    -fx-background-color : #C0E4F6;
+    -fx-background-radius : 50 50;
+}
+
+
+.headerTutorialButtonOrange
+{
+    -fx-background-color : #FFE2D1;
+    -fx-background-radius : 50 50;
+}
+.headerTutorialButtonOrange:hover
+{
+    -fx-background-color : #F3D6CE;
+    -fx-background-radius : 50 50;
+}
+.headerTutorialButtonOrange:pressed
+{
+    -fx-background-color : #FFE2D1;
+    -fx-background-radius : 50 50;
+}
+
+
+.headerChangePasswordButtonGreen
+{
+    -fx-background-color : #D0F4DE;
+    -fx-background-radius : 50 50;
+}
+.headerChangePasswordButtonGreen:hover
+{
+    -fx-background-color : #92CEA8;
+    -fx-background-radius : 50 50;
+}
+.headerChangePasswordButtonGreen:pressed
+{
+    -fx-background-color : #D0F4DE;
+    -fx-background-radius : 50 50;
+}
+
+
+
+.centerbutton1
+{
+    -fx-background-color : #D0F4DE;
+    -fx-background-radius : 50 50;
+}
+.centerbutton1:hover
+{
+    -fx-background-color : #92CEA8;
+    -fx-background-radius : 50 50;
+}
+.centerbutton1:pressed
+{
+    -fx-background-color : #D0F4DE;
+    -fx-background-radius : 50 50;
+}
+
+
+.centerbutton2
+{
+    -fx-background-color : #C0E4F6;
+    -fx-background-radius : 0 0 50 50;
+}
+.centerbutton2:hover
+{
+    -fx-background-color : #C0E4F6;
+    -fx-background-radius : 0 0 50 50;
+}
+.centerbutton2:pressed
+{
+    -fx-background-color : #C0E4F6;
+    -fx-background-radius : 0 0 50 50;
+}
+
+.headcenterbutton1
+{
+    -fx-background-color : #D0F4DE;
+    -fx-background-radius : 50 50 0 0;
+}
+.headcenterbutton1:hover
+{
+    -fx-background-color : #D0F4DE;
+    -fx-background-radius : 50 50 0 0;
+}
+.headcenterbutton1:pressed
+{
+    -fx-background-color : #D0F4DE;
+    -fx-background-radius : 50 50 0 0;
+}
+
+//report
+.centerbuttonReport
+{
+    -fx-background-color : #C0E4F6;
+    -fx-background-radius : 30 0 0 30;
+}
+.centerbuttonReport:hover
+{
+    -fx-background-color : #C0E4F6;
+    -fx-background-radius : 30 0 0 30;
+}
+.centerbuttonReport:pressed
+{
+    -fx-background-color : #C0E4F6;
+    -fx-background-radius : 30 0 0 30;
+}
+
+.centerbuttonReport2
+{
+    -fx-background-color : #FFB3B3;
+    -fx-background-radius : 30 0 0 30;
+}
+.centerbuttonReport2:hover
+{
+    -fx-background-color : #FFB3B3;
+    -fx-background-radius : 30 0 0 30;
+}
+.centerbuttonReport2:pressed
+{
+    -fx-background-color : #FFB3B3;
+    -fx-background-radius : 30 0 0 30;
+}
+
+
+.showReportTook
+{
+    -fx-background-color : #F9F9F9;
+    -fx-background-radius : 50 50 50 50;
+}
+.showReportTook:hover
+{
+    -fx-background-color : #F9F9F9;
+    -fx-background-radius : 50 50 50 50;
+}
+.showReportTook:pressed
+{
+    -fx-background-color : #F9F9F9;
+    -fx-background-radius : 50 50 50 50;
+}
+
+
+.showReportTaking
+{
+    -fx-background-color : #F9F9F9;
+    -fx-background-radius : 50 50 50 50;
+}
+.showReportTaking:hover
+{
+    -fx-background-color : #F9F9F9;
+    -fx-background-radius : 50 50 50 50;
+}
+.showReportTaking:pressed
+{
+    -fx-background-color : #F9F9F9;
+    -fx-background-radius : 50 50 50 50;
+}
+
+.showReportNoTake
+{
+    -fx-background-color : #F9F9F9;
+    -fx-background-radius : 50 50 50 50;
+}
+.showReportNoTake:hover
+{
+    -fx-background-color : #F9F9F9;
+    -fx-background-radius : 50 50 50 50;
+}
+.showReportNoTake:pressed
+{
+    -fx-background-color : #F9F9F9;
+    -fx-background-radius : 50 50 50 50;
+}
+
+//Home
+.buttonForReadWriteReport
+{
+    -fx-background-color : #C2DED1;
+    -fx-background-radius : 50 50;
+}
+.buttonForReadWriteReport:hover
+{
+    -fx-background-color : #CDF0EA;
+    -fx-background-radius : 50 50 50 50;
+}
+.buttonForReadWriteReport:pressed
+{
+    -fx-background-color : #C2DED1;
+    -fx-background-radius : 50 50;
+}
+//CENTERRRRRRR
+.complaintbutton1
+{
+    -fx-background-color : #f4b0b8;
+    -fx-background-radius : 0 0 0 0;
+}
+.complaintbutton1:hover
+{
+    -fx-background-color : #F6C6C7;
+    -fx-background-radius : 0 0 0 0;
+}
+.complaintbutton1:pressed
+{
+    -fx-background-color : #f4b0b8;
+    -fx-background-radius : 0 0 0 0;
+}
+
+
+.complaintbutton2
+{
+    -fx-background-color : #f4b0b8;
+    -fx-background-radius : 0 0 0 0;
+}
+.complaintbutton2:hover
+{
+    -fx-background-color : #F6C6C7;
+    -fx-background-radius : 0 0 0 0;
+}
+.complaintbutton2:pressed
+{
+    -fx-background-color : #f4b0b8;
+    -fx-background-radius : 0 0 0 0;
+}
+
+
+.complaintbutton3
+{
+    -fx-background-color : #f4b0b8;
+    -fx-background-radius : 0 0 0 0;
+}
+.complaintbutton3:hover
+{
+    -fx-background-color : #F6C6C7;
+    -fx-background-radius : 0 0 0 0;
+}
+.complaintbutton3:pressed
+{
+    -fx-background-color : #f4b0b8;
+    -fx-background-radius : 0 0 0 0;
+}
+
+
+.complaintbutton4
+{
+    -fx-background-color : #f4b0b8;
+    -fx-background-radius : 0 0 0 0;
+}
+.complaintbutton4:hover
+{
+    -fx-background-color : #F6C6C7;
+    -fx-background-radius : 0 0 0 0;
+}
+.complaintbutton4:pressed
+{
+    -fx-background-color : #f4b0b8;
+    -fx-background-radius : 0 0 0 0;
+}
+
+.complaintbutton5
+{
+    -fx-background-color : #f4b0b8;
+    -fx-background-radius : 0 0 20 20;
+}
+.complaintbutton5:hover
+{
+    -fx-background-color : #F6C6C7;
+    -fx-background-radius : 0 0 20 20;
+}
+.complaintbutton5:pressed
+{
+    -fx-background-color : #f4b0b8;
+    -fx-background-radius : 0 0 20 20;
+}
+
+
+.readbutton1
+{
+    -fx-background-color : #f4b0b8;
+    -fx-background-radius : 0 0 20 20;
+}
+.readbutton1:hover
+{
+    -fx-background-color : #F6C6C7;
+    -fx-background-radius : 0 0 20 20;
+}
+.readbutton1:pressed
+{
+    -fx-background-color : #f4b0b8;
+    -fx-background-radius : 0 0 20 20;
+}
+
+.button-mode {
+    -fx-border-color: black;
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-background-radius: 25px;
+    -fx-color-label-visible: white;
+    -fx-border-radius: 25px;
+}
+.button-mode:hover
+{
+    -fx-border-color: black;
+    -fx-background-color: black;
+    -fx-text-fill: linear-gradient(to right,white,white);
+    -fx-background-radius: 25px;
+    -fx-color-label-visible: white;
+    -fx-border-radius: 25px;
+}
+
+
+
+//organizer
+.pingbutton
+{
+    -fx-background-color : #FFB3B3;
+    -fx-background-radius : 50 50 50 50;
+}
+.pingbutton:hover
+{
+    -fx-background-color : #FFB3B3;
+    -fx-background-radius : 50 50 50 50;
+}
+.pingbutton:pressed
+{
+    -fx-background-color : #FFB3B3;
+    -fx-background-radius : 50 50 50 50;
+}
+
+.meimaybutton
+{
+    -fx-background-color : #F7BE81;
+    -fx-background-radius : 50 50 50 50;
+}
+.meimaybutton:hover
+{
+    -fx-background-color : #F7BE81;
+    -fx-background-radius : 50 50 50 50;
+}
+.meimaybutton:pressed
+{
+    -fx-background-color : #F7BE81;
+    -fx-background-radius : 50 50 50 50;
+}
+
+.tabutton
+{
+    -fx-background-color : #D0F4DE;
+    -fx-background-radius : 50 50 50 50;
+}
+.tabutton:hover
+{
+    -fx-background-color : #92CEA8;
+    -fx-background-radius : 50 50 50 50;
+}
+.tabutton:pressed
+{
+    -fx-background-color : #D0F4DE;
+    -fx-background-radius : 50 50 50 50;
+}
+
+.primbutton
+{
+    -fx-background-color : #B5DEFF;
+    -fx-background-radius : 50 50 50 50;
+}
+.primbutton:hover
+{
+    -fx-background-color : #B5DEFF;
+    -fx-background-radius : 50 50 50 50;
+}
+.primbutton:pressed
+{
+    -fx-background-color : #B5DEFF;
+    -fx-background-radius : 50 50 50 50;
+}
+
+.backedbutton
+{
+    -fx-background-color : #FFF8A6;
+    -fx-background-radius : 50 50 50 50;
+}
+.backedbutton:hover
+{
+    -fx-background-color : #FFF8A6;
+    -fx-background-radius : 50 50 50 50;
+}
+.backedbutton:pressed
+{
+    -fx-background-color : #FFF8A6;
+    -fx-background-radius : 50 50 50 50;
+}
+
+
+.logoutbutton
+{
+    -fx-background-color : #B5DEFF;
+    -fx-background-radius : 50 50 50 50;
+}
+.logoutbutton:hover
+{
+    -fx-background-color : #B5DEFF;
+    -fx-background-radius : 50 50 50 50;
+}
+.logoutbutton:pressed
+{
+    -fx-background-color : #B5DEFF;
+    -fx-background-radius : 50 50 50 50;
+}
+
+.postbutton
+{
+    -fx-background-color : #D0F4DE;
+    -fx-background-radius : 50 50 50 50;
+}
+.postbutton:hover
+{
+    -fx-background-color : #D0F4DE;
+    -fx-background-radius : 50 50 50 50;
+}
+.postbutton:pressed
+{
+    -fx-background-color : #D0F4DE;
+    -fx-background-radius : 50 50 50 50;
+}
+
+
+.backed2button
+{
+    -fx-background-color : #C1EFFF;
+    -fx-background-radius : 50 50 50 50;
+}
+.backed2button:hover
+{
+    -fx-background-color : #C1EFFF;
+    -fx-background-radius : 50 50 50 50;
+}
+.backed2button:pressed
+{
+    -fx-background-color : #C1EFFF;
+    -fx-background-radius : 50 50 50 50;
+}
+
+
+.nisitOrganizerCenterbutton
+{
+    -fx-background-color : #FCF8F3;
+    -fx-background-radius : 30 30 30 30;
+}
+.nisitOrganizerCenterbutton:hover
+{
+    -fx-background-color : #FCF8F3;
+    -fx-background-radius : 30 30 30 30;
+}
+.nisitOrganizerCenterbutton:pressed
+{
+    -fx-background-color : #FCF8F3;
+    -fx-background-radius : 30 30 30 30;
+}
+
+.nisitOrganizerbutton
+{
+    -fx-background-color : #FCF8F3;
+    -fx-background-radius : 0 0 30 30;
+}
+.nisitOrganizerbutton:hover
+{
+    -fx-background-color : #FCF8F3;
+    -fx-background-radius : 0 0 30 30;
+}
+.nisitOrganizerbutton:pressed
+{
+    -fx-background-color : #FCF8F3;
+    -fx-background-radius : 0 0 30 30;
+}
+
+.uploadOfProfilebutton
+{
+    -fx-background-color : #FFB3B3;
+    -fx-background-radius : 50 50 50 50;
+}
+.uploadOfProfilebutton:hover
+{
+    -fx-background-color : #FFB3B3;
+    -fx-background-radius : 50 50 50 50;
+}
+.uploadOfProfilebutton:pressed
+{
+    -fx-background-color : #FFB3B3;
+    -fx-background-radius : 50 50 50 50;
+}
+
+
+.saveChangesOfProfilebutton
+{
+    -fx-background-color : #92CEA8;
+    -fx-background-radius : 50 50 50 50;
+}
+.saveChangesOfProfilebutton:hover
+{
+    -fx-background-color : #A0D995;
+    -fx-background-radius : 50 50 50 50;
+}
+.saveChangesOfProfilebutton:pressed
+{
+    -fx-background-color : #92CEA8;
+    -fx-background-radius : 50 50 50 50;
+}
+
+.buttonForSearch
+{
+    -fx-background-color : #F29393;
+    -fx-background-radius : 50 50 50 50;
+}
+.buttonForSearch:hover
+{
+    -fx-background-color : #FFCCB3;
+    -fx-background-radius : 50 50 50 50;
+}
+.buttonForSearch:pressed
+{
+    -fx-background-color : #F29393;
+    -fx-background-radius : 50 50 50 50;
+}
+
+//Report_inappropriateness
+.buttonForReportInappropriateness
+{
+    -fx-background-color : #FECD70;
+    -fx-background-radius : 50 50 50 50;
+}
+.buttonForReportInappropriateness:hover
+{
+    -fx-background-color : #FFAE6D;
+    -fx-background-radius : 50 50 50 50;
+}
+.buttonForReportInappropriateness:pressed
+{
+    -fx-background-color : #FECD70;
+    -fx-background-radius : 50 50 50 50;
+}
+
+.buttonForUserInappropriateness
+{
+    -fx-background-color : #B1E1FF;
+    -fx-background-radius : 50 50 50 50;
+}
+.buttonForUserInappropriateness:hover
+{
+    -fx-background-color : #9C9EFE;
+    -fx-background-radius : 50 50 50 50;
+}
+.buttonForUserInappropriateness:pressed
+{
+    -fx-background-color : #B1E1FF;
+    -fx-background-radius : 50 50 50 50;
+}
+
+.buttonForCenter
+{
+
+    //-fx-border-color: #EF5B0C;
+    -fx-border-vidth:2;
+    -fx-border-radius: 50px;
+    -fx-background-color : #FFFFFF;
+    -fx-background-radius : 50 50 50 50;
+}
+
+.buttonForCenterHeader
+{
+    -fx-border-vidth:2;
+    -fx-border-radius: 50px;
+    -fx-background-color : #C1EFFF;
+    -fx-background-radius : 10 10;
+}
+
+//OfficerOfButton
+//HEADDDDDDDDDDDD
+.headbuttonOrgenizer
+{
+    -fx-background-color : #C0E4F6;
+    -fx-background-radius : 50 50;
+}
+.headbuttonOrgenizer:hover
+{
+    -fx-background-color : #A8D1E7;
+    -fx-background-radius : 50 50;
+}
+.headbuttonOrgenizer:pressed
+{
+    -fx-background-color : #C0E4F6;
+    -fx-background-radius : 50 50;
+}
+
+
+.headbuttonHowto
+{
+    -fx-background-color : #FFE2D1;
+    -fx-background-radius : 50 50;
+}
+.headbuttonHowto:hover
+{
+    -fx-background-color : #F3D6CE;
+    -fx-background-radius : 50 50;
+}
+.headbuttonHowto:pressed
+{
+    -fx-background-color : #FFE2D1;
+    -fx-background-radius : 50 50;
+}
+
+
+.headbuttonProfile
+{
+    -fx-background-color : #D0F4DE;
+    -fx-background-radius : 50 50;
+}
+.headbuttonProfile:hover
+{
+    -fx-background-color : #92CEA8;
+    -fx-background-radius : 50 50;
+}
+.headbuttonProfile:pressed
+{
+    -fx-background-color : #D0F4DE;
+    -fx-background-radius : 50 50;
+}
+.centerbutton
+{
+    -fx-background-color : #FFE9AE;
+    -fx-background-radius : 30 30 30 30;
+}
+.centerbutton:hover
+{
+    -fx-background-color : #FFE9AE;
+    -fx-background-radius : 30 30 30 30;
+}
+.centerbutton:pressed
+{
+    -fx-background-color : #FFE9AE;
+    -fx-background-radius : 30 30 30 30;
+}
+
+.centerbutton2
+{
+    -fx-background-color : #C1EFFF;
+    -fx-background-radius : 30 30 30 30;
+}
+.centerbutton2:hover
+{
+    -fx-background-color : #C1EFFF;
+    -fx-background-radius : 30 30 30 30;
+}
+.centerbutton2:pressed
+{
+    -fx-background-color : #C1EFFF;
+    -fx-background-radius : 30 30 30 30;
+}
+
+.centerUserbutton
+{
+    -fx-background-color : #FFDBA4;
+    -fx-background-radius : 30 30 30 30;
+}
+.centerUserbutton:hover
+{
+    -fx-background-color : #FFDBA4;
+    -fx-background-radius : 30 30 30 30;
+}
+.centerUserbutton:pressed
+{
+    -fx-background-color : #FFDBA4;
+    -fx-background-radius : 30 30 30 30;
+}
+
+.centerClaimTopbutton
+{
+    -fx-background-color : #C5DEFF;
+    -fx-background-radius : 30 30 30 30;
+}
+.centerClaimTopbutton:hover
+{
+    -fx-background-color : #C5DEFF;
+    -fx-background-radius : 30 30 30 30;
+}
+.centerClaimTopbutton:pressed
+{
+    -fx-background-color : #C5DEFF;
+    -fx-background-radius : 30 30 30 30;
+}
+
+.centerClaimbutton
+{
+    -fx-background-color : #F4B0B8;
+    -fx-background-radius : 30 30 30 30;
+}
+.centerClaimbutton:hover
+{
+    -fx-background-color : #F4B0B8;
+    -fx-background-radius : 30 30 30 30;
+}
+.centerClaimbutton:pressed
+{
+    -fx-background-color : #F4B0B8;
+    -fx-background-radius : 30 30 30 30;
+}
+
+//ORTHERRRRRRRRRRRR
+.centerbutton
+{
+    -fx-background-color : #F9F9F9;
+    -fx-background-radius : 30 30 30 30;
+}
+.centerbutton:hover
+{
+    -fx-background-color : #F9F9F9;
+    -fx-background-radius : 30 30 30 30;
+}
+.centerbutton:pressed
+{
+    -fx-background-color : #F9F9F9;
+    -fx-background-radius : 30 30 30 30;
+}
+
+.lowerbutton
+{
+    -fx-background-color : #FFB3B3;
+    -fx-background-radius : 30 30 30 30;
+}
+.lowerbutton:hover
+{
+    -fx-background-color : #FFB3B3;
+    -fx-background-radius : 30 30 30 30;
+}
+.lowerbutton:pressed
+{
+    -fx-background-color : #FFB3B3;
+    -fx-background-radius : 30 30 30 30;
+}
+
+.overlapBelowbutton
+{
+    -fx-background-color : #F9F9F9;
+    -fx-background-radius : 30 30 30 30;
+}
+.overlapBelowbutton:hover
+{
+    -fx-background-color : #F9F9F9;
+    -fx-background-radius : 30 30 30 30;
+}
+.overlapBelowbutton:pressed
+{
+    -fx-background-color : #F9F9F9;
+    -fx-background-radius : 30 30 30 30;
+}
+
+.overlapBelowbuttonOK
+{
+    -fx-background-color : #C1EFFF;
+    -fx-background-radius : 30 30 30 30;
+}
+.overlapBelowbuttonOK:hover
+{
+    -fx-background-color : #C1EFFF;
+    -fx-background-radius : 30 30 30 30;
+}
+.overlapBelowbuttonOK:pressed
+{
+    -fx-background-color : #C1EFFF;
+    -fx-background-radius : 30 30 30 30;
+}
+
+.changePasswordButton
+{
+    -fx-background-color : #91DFAA;
+    -fx-background-radius : 30 30 30 30;
+}
+.changePasswordButton:hover
+{
+    -fx-background-color : #91DFAA;
+    -fx-background-radius : 30 30 30 30;
+}
+.changePasswordButton:pressed
+{
+    -fx-background-color : #91DFAA;
+    -fx-background-radius : 30 30 30 30;
+}
+
+.officerProfileShowInforButton
+{
+    -fx-background-color : #F4DEB1;
+    -fx-background-radius : 30 30 30 30;
+}
+.officerProfileShowInforButton:hover
+{
+    -fx-background-color : #F4DEB1;
+    -fx-background-radius : 30 30 30 30;
+}
+.officerProfileShowInforButton:pressed
+{
+    -fx-background-color : #F4DEB1;
+    -fx-background-radius : 30 30 30 30;
+}
+
+.officerReportToReplyforButton
+{
+    -fx-background-color : #9CB4CC;
+    -fx-background-radius : 30 30 30 30;
+}
+.officerReportToReplyforButton:hover
+{
+    -fx-background-color : #748DA6;
+    -fx-background-radius : 30 30 30 30;
+}
+.officerReportToReplyforButton:pressed
+{
+    -fx-background-color : #9CB4CC;
+    -fx-background-radius : 30 30 30 30;
+}
+
+//Main
+.buttonForSubmitWord
+{
+    -fx-background-color : transparent;
+    -fx-border-color: #312d2d;
+    -fx-border-vidth:2;
+    -fx-border-radius: 25px;
+}
+
+.buttonForSubmitWordbackground
+{
+    -fx-background-color : #FFFFFF;
+    -fx-background-radius : 20 20;
+}
+.buttonForSubmitWordbackground:hover
+{
+    -fx-background-color : #FFFFFF;
+    -fx-background-radius : 20 20;
+}
+.buttonForSubmitWordbackground:pressed
+{
+    -fx-background-color : #FFFFFF;
+    -fx-background-radius : 20 20;
+}
+
+.buttonForUsername
+{
+    -fx-background-color : #FFFFFF;
+    -fx-background-radius : 20 20;
+}
+.buttonForUsername:hover
+{
+    -fx-background-color : #FFFFFF;
+    -fx-background-radius : 20 20;
+}
+.buttonForUsername:pressed
+{
+    -fx-background-color : #FFFFFF;
+    -fx-background-radius : 20 20;
+}
+
+.buttonForPassword
+{
+    -fx-background-color : #FFFFFF;
+    -fx-background-radius : 20 20;
+}
+.buttonForPassword:hover
+{
+    -fx-background-color : #FFFFFF;
+    -fx-background-radius : 20 20;
+}
+.buttonForPassword:pressed
+{
+    -fx-background-color : #FFFFFF;
+    -fx-background-radius : 20 20;
+}
+
+.buttonForEnterText
+{
+    -fx-background-color : transparent;
+    -fx-border-color: #312d2d;
+    -fx-border-vidth:2;
+    -fx-border-radius: 25px;
+}
+
+
+
+.registerButton
+{
+    -fx-background-color : #C4DFAA;
+    -fx-background-radius : 50 50 50 50;
+}
+.registerButton:hover
+{
+    -fx-background-color : #C2DED1;
+    -fx-background-radius : 50 50 50 50;
+}
+.registerdButton:pressed
+{
+    -fx-background-color : #C4DFAA;
+    -fx-background-radius : 50 50 50 50;
+}
+
+.loginbutton
+{
+    -fx-background-color : #FFB3B3;
+    -fx-background-radius : 50 50 50 50;
+}
+.loginbutton:hover
+{
+    -fx-background-color : #F3C5C5;
+    -fx-background-radius : 50 50 50 50;
+}
+.loginbutton:pressed
+{
+    -fx-background-color : #FFB3B3;
+    -fx-background-radius : 50 50 50 50;
+}
+
+.uploadButton
+{
+    -fx-background-color : #D1EAA3;
+    -fx-background-radius : 50 50 50 50;
+}
+.uploadButton:hover
+{
+    -fx-background-color : #EFEE9D;
+    -fx-background-radius : 50 50 50 50;
+}
+.uploadButton:pressed
+{
+    -fx-background-color : #D1EAA3;
+    -fx-background-radius : 50 50 50 50;
+}
+
+.backedbutton
+{
+    -fx-background-color : #FFF8A6;
+    -fx-background-radius : 50 50 50 50;
+}
+.backedbutton:hover
+{
+    -fx-background-color : #FFF8A6;
+    -fx-background-radius : 50 50 50 50;
+}
+.backedbutton:pressed
+{
+    -fx-background-color : #FFF8A6;
+    -fx-background-radius : 50 50 50 50;
+}
+
+.uploadbutton
+{
+    -fx-background-color : #B5DEFF;
+    -fx-background-radius : 50 50 50 50;
+}
+.uploadbutton:hover
+{
+    -fx-background-color : #B5DEFF;
+    -fx-background-radius : 50 50 50 50;
+}
+.uploadbutton:pressed
+{
+    -fx-background-color : #B5DEFF;
+    -fx-background-radius : 50 50 50 50;
+}
+
+.centerClaimbutton
+{
+    -fx-background-color : #F9F9F9;
+    -fx-background-radius : 30 30 30 30;
+}
+.centerClaimbutton:hover
+{
+    -fx-background-color : #F9F9F9;
+    -fx-background-radius : 30 30 30 30;
+}
+.centerClaimbutton:pressed
+{
+    -fx-background-color : #F9F9F9;
+    -fx-background-radius : 30 30 30 30;
+}
+
+.buttonForOrgranizer
+{
+    -fx-background-color : #A7C5EB;
+    -fx-background-radius : 50 50;
+}
+.buttonForOrgranizer:hover
+{
+    -fx-background-color : #DAEAF1;
+    -fx-background-radius : 50 50;
+}
+.buttonForOrgranizer:pressed
+{
+    -fx-background-color : #A7C5EB;
+    -fx-background-radius : 50 50;
+}
+
+.buttonForHowToProgram
+{
+    -fx-background-color : #949CDF;
+    -fx-background-radius : 50 50;
+}
+.buttonForHowToProgram:hover
+{
+    -fx-background-color : #6155A6;
+    -fx-background-radius : 50 50;
+}
+.buttonForHowToProgram:pressed
+{
+    -fx-background-color : #949CDF;
+    -fx-background-radius : 50 50;
+}
+
+
+.welcomebutton
+{
+    -fx-background-color : #EEC373;
+    -fx-background-radius : 50 50 50 50;
+}
+.welcomebutton:hover
+{
+    -fx-background-color : #F4DFBA;
+    -fx-background-radius : 50 50 50 50;
+}
+.welcomebutton:pressed
+{
+    -fx-background-color : #EEC373;
+    -fx-background-radius : 50 50 50 50;
+}
+
+.buttonForLogOut
+{
+    -fx-background-color : #EEC373;
+    -fx-background-radius : 50 50 50 50;
+}
+.buttonForLogOut:hover
+{
+    -fx-background-color : #F4DFBA;
+    -fx-background-radius : 50 50 50 50;
+}
+.buttonForLogOut:pressed
+{
+    -fx-background-color : #EEC373;
+    -fx-background-radius : 50 50 50 50;
+}
+
+//Home
+.rootHome {
+    -fx-background-color: White;
+
+}
+
+//Register
+@font-face {
+    font-family: Prompt-Regular;
+    src: url("Prompt-Regular.ttf");
+}
+
+.fill-color {
+    -fx-fill: black;
+}
+
+.fill-text-color {
+    -fx-text-fill: black;
+}
+
+.fill-prompt-text-color {
+    -fx-prompt-text-fill: black;
+}
+

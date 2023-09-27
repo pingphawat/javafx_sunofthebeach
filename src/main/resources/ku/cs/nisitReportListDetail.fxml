@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="512.0" prefWidth="800.0" styleClass="rootHome" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ku.cs.controllers.nisit.NisitReportListDetailController">
+   <children>
+      <Button layoutX="30.0" layoutY="84.0" mnemonicParsing="false" prefHeight="364.0" prefWidth="740.0" style="-fx-background-color: FFF9B0; -fx-background-radius: 45 45;" />
+      <ImageView fitHeight="120.0" fitWidth="81.0" layoutX="706.0" layoutY="457.0" onMouseClicked="#handleBackButton" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/back.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="titleLabel" alignment="CENTER" layoutX="110.0" prefHeight="76.0" prefWidth="581.0" style="-fx-background-color: CFE8A9; -fx-background-radius: 0 0 50 50;" text="titleLabel">
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Label>
+      <Label fx:id="reportDetailLabel" alignment="TOP_LEFT" layoutX="194.0" layoutY="246.0" prefHeight="51.0" prefWidth="570.0" text="reportDetailLabel">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="fixDetailLabel" alignment="TOP_LEFT" layoutX="249.0" layoutY="337.0" prefHeight="68.0" prefWidth="494.0" text="fixDetailLabel">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="statusLabel" layoutX="109.0" layoutY="312.0" prefHeight="17.0" prefWidth="249.0" text="statusLabel" />
+      <HBox layoutX="384.0" layoutY="454.0" prefHeight="57.0" prefWidth="92.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#handleReportInappropriateContentButton" prefHeight="39.0" prefWidth="106.0" styleClass="buttonForReportInappropriateness" stylesheets="@forButton/light.css" text="เนื้อหา">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <HBox layoutX="486.0" layoutY="454.0" prefHeight="57.0" prefWidth="88.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#handleReportInappropriateUserButton" prefHeight="30.0" prefWidth="488.0" styleClass="buttonForReadWriteReport" stylesheets="@forButton/light.css" text="ผู้ใช้">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <VBox layoutX="42.0" layoutY="453.0" prefHeight="43.0" prefWidth="341.0">
+         <children>
+            <ImageView fitHeight="44.0" fitWidth="366.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/Report_inappropriateness.png" />
+               </image>
+            </ImageView>
+         </children>
+      </VBox>
+      <Label layoutX="54.0" layoutY="218.0" text="คะแนนโหวต:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="voteLabel" layoutX="136.0" layoutY="218.0" prefHeight="17.0" prefWidth="485.0" text="voteLabel" />
+      <Label fx:id="typeLabel" layoutX="120.0" layoutY="162.0" prefHeight="18.0" prefWidth="502.0" text="typeLabel" />
+      <Label layoutX="55.0" layoutY="247.0" text="รายละเอียดเรื่องร้องเรียน:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="52.0" layoutY="136.0" text="วันเวลาที่โพสต์:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="53.0" layoutY="108.0" text="โพสต์โดย:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="55.0" layoutY="338.0" text="รายละเอียดการจัดการเรื่องร้องเรียน:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="nisitUsernameLabel" layoutX="123.0" layoutY="108.0" prefHeight="17.0" prefWidth="502.0" text="nisitUsernameLabel" />
+      <Label fx:id="dateTimeLabel" layoutX="145.0" layoutY="136.0" prefHeight="17.0" prefWidth="485.0" text="dateTimeLabel" />
+      <Label layoutX="54.0" layoutY="162.0" text="หมวดหมู่:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="56.0" layoutY="312.0" text="สถานะ:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Button layoutX="54.0" layoutY="406.0" mnemonicParsing="false" onAction="#handleVote" styleClass="backed2button" stylesheets="@forButton/light.css" text="Vote" />
+      <Label fx:id="errorLabel" layoutX="109.0" layoutY="406.0" prefHeight="25.0" prefWidth="538.0" text="errorLabel" textFill="#ed1b1b">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="successLabel" layoutX="109.0" layoutY="406.0" prefHeight="25.0" prefWidth="538.0" text="successLabel" textFill="#107731">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="54.0" layoutY="189.0" text="ข้อมูลเพิ่มเติม:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="typeDetailLabel" layoutX="136.0" layoutY="189.0" text="typeDetailLabel" />
+   </children>
+   <stylesheets>
+      <URL value="@forButton/dark.css" />
+      <URL value="@forButton/light.css" />
+   </stylesheets>
+</AnchorPane>

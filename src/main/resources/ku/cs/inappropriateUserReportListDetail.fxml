@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="512.0" prefWidth="800.0" styleClass="rootHome" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ku.cs.controllers.admin.InappropriateUserReportListDetailController">
+   <children>
+      <Button layoutX="38.0" layoutY="97.0" mnemonicParsing="false" prefHeight="288.0" prefWidth="714.0" style="-fx-background-color: D2DAFF; -fx-background-radius: 30 30;" />
+      <Button layoutX="41.0" mnemonicParsing="false" prefHeight="76.0" prefWidth="717.0" style="-fx-background-color: D2DAFF; -fx-background-radius: 0 0 45 45;" />
+      <Button layoutX="57.0" layoutY="198.0" mnemonicParsing="false" prefHeight="260.0" prefWidth="675.0" style="-fx-background-color: EEF1FF; -fx-background-radius: 30 30;" />
+      <Label layoutX="73.0" layoutY="114.0" text="Username:">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font></Label>
+      <Label layoutX="73.0" layoutY="154.0" text="ประเภทของการรายงาน:">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font></Label>
+      <Label layoutX="73.0" layoutY="211.0" text="รายละเอียด:">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font></Label>
+      <Label fx:id="usernameLabel" layoutX="172.0" layoutY="114.0" text="usernameLabel">
+         <font>
+            <Font size="17.0" />
+         </font></Label>
+      <Label fx:id="typeLabel" layoutX="261.0" layoutY="154.0" text="typeLabel">
+         <font>
+            <Font size="17.0" />
+         </font></Label>
+      <Label fx:id="detailLabel" alignment="TOP_LEFT" layoutX="172.0" layoutY="211.0" prefHeight="195.0" prefWidth="536.0" text="detailLabel">
+         <font>
+            <Font size="17.0" />
+         </font></Label>
+      <Button layoutX="83.0" layoutY="420.0" mnemonicParsing="false" onAction="#handleDeleteInappropriateUserReportButton" styleClass="welcomebutton" stylesheets="@forButton/light.css" text="ลบเรื่องรายงานนี้" />
+      <Button layoutX="201.0" layoutY="419.0" mnemonicParsing="false" onAction="#handleBanUserButton" styleClass="backedbutton" stylesheets="@forButton/light.css" text="ระงับสิทธิ์ผู้ใช้" />
+      <Label fx:id="errorLabel" layoutX="90.0" layoutY="460.0" text="errorLabel" textFill="RED" />
+      <ImageView fitHeight="52.0" fitWidth="698.0" layoutX="53.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/User_inappropriateness_Datail.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="57.0" fitWidth="104.0" layoutX="700.0" layoutY="449.0" onMouseClicked="#handleBackButton" onMouseDragEntered="#handleBackButton" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/back.png" />
+         </image>
+      </ImageView>
+   </children>
+   <stylesheets>
+      <URL value="@forButton/dark.css" />
+      <URL value="@forButton/light.css" />
+   </stylesheets>
+</AnchorPane>

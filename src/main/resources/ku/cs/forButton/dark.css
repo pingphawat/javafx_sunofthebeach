@@ -1,0 +1,49 @@
+//home,Register
+.button-mode {
+    -fx-border-color: white;
+    -fx-background-color: #00c5cd;
+    -fx-text-fill: white;
+    -fx-background-radius: 25px;
+    -fx-color-label-visible: white;
+    -fx-border-radius: 25px;
+}
+
+.button-mode:hover
+{
+    -fx-border-color: white;
+    -fx-background-color: white;
+    -fx-text-fill: #00c5cd;
+    -fx-background-radius: 25px;
+    -fx-color-label-visible: white;
+    -fx-border-radius: 25px;
+}
+.rootHome {
+    -fx-background-color: Black;
+}
+.login {
+    -fx-border-color: white;
+    -fx-border-radius: 50px;
+}
+.userName {
+    -fx-border-color: white;
+}
+.passWord {
+    -fx-border-color: white;
+}
+
+@font-face {
+    font-family: Prompt-Regular;
+    src: url("Prompt-Regular.ttf");
+}
+.fill-color {
+    -fx-fill: #FFFFFF;
+}
+
+.fill-text-color {
+    -fx-text-fill: #FFFFFF;
+}
+
+.fill-prompt-text-color {
+    -fx-prompt-text-fill: #FFFFFF;
+}
+

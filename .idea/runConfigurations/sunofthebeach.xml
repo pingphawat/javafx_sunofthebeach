@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="sunofthebeach" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="ku.cs.Main" />
+    <module name="CS211-Project" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

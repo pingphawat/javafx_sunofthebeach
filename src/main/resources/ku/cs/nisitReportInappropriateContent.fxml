@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="512.0" prefWidth="800.0" styleClass="rootHome" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ku.cs.controllers.nisit.NisitReportInappropriateContentController">
+   <children>
+      <Button layoutX="100.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="621.0" style="-fx-background-color: FFDBA4; -fx-background-radius: 0 0 50 50;" />
+      <VBox alignment="CENTER" layoutX="1.0" layoutY="-4.0" prefHeight="79.0" prefWidth="800.0">
+         <children>
+            <ImageView fitHeight="58.0" fitWidth="644.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/Content_inappropriateness.png" />
+               </image>
+            </ImageView>
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" layoutY="124.0" prefHeight="326.0" prefWidth="802.0">
+         <children>
+            <Button mnemonicParsing="false" prefHeight="320.0" prefWidth="721.0" style="-fx-background-color: FFDBA4; -fx-background-radius: 30 30;" />
+         </children>
+      </VBox>
+      <Button layoutX="76.0" layoutY="88.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="644.0" styleClass="buttonForCenterHeader" stylesheets="@forButton/light.css" />
+      <ChoiceBox fx:id="typeBox" layoutX="75.0" layoutY="88.0" prefHeight="39.0" prefWidth="644.0" style="-fx-background-color: C1EFFF;" />
+      <Label layoutX="594.0" layoutY="68.0" prefHeight="22.0" prefWidth="120.0" text="You can choose here." textFill="#2918d9">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="39.0" fitWidth="81.0" layoutX="660.0" layoutY="401.0" onMouseClicked="#handlePostButton" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Nisit_writeComplaintPost.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="120.0" fitWidth="81.0" layoutX="706.0" layoutY="450.0" onMouseClicked="#handleBackButton" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/back.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="detailTextField" alignment="TOP_LEFT" layoutX="60.0" layoutY="146.0" prefHeight="249.0" prefWidth="676.0" promptText="รายละเอียด" style="-fx-background-radius: 30 30; -fx-background-color: C1EFFF;" />
+      <Label fx:id="errorLabel" layoutX="72.0" layoutY="453.0" prefHeight="18.0" prefWidth="518.0" text="errorLabel" textFill="RED" />
+      <Label fx:id="successLabel" layoutX="72.0" layoutY="453.0" prefHeight="18.0" prefWidth="542.0" text="successLabel" textFill="#03bc31" />
+   </children>
+   <stylesheets>
+      <URL value="@forButton/dark.css" />
+      <URL value="@forButton/light.css" />
+   </stylesheets>
+</AnchorPane>

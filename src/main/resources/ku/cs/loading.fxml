@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="512.0" prefWidth="800.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ku.cs.controllers.main.LoadingController">
+   <children>
+      <ImageView fitHeight="238.0" fitWidth="316.0" layoutX="275.0" layoutY="112.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/logo.gif" />
+         </image>
+      </ImageView>
+      <Button layoutX="351.0" layoutY="414.0" mnemonicParsing="false" onAction="#handleHomeButton" prefHeight="27.0" prefWidth="85.0" styleClass="welcomebutton" stylesheets="@forButton/light.css" text="WELCOME">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Label fx:id="labelProgress" layoutX="380.0" layoutY="383.0" textFill="#fbf7f7">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <ProgressBar layoutX="275.0" layoutY="380.0" prefHeight="20.0" prefWidth="236.0" />
+   </children>
+</AnchorPane>
