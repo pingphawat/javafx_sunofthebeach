@@ -430,6 +430,4 @@ password : 123
 * ทำ dark mode
 * ทำข้อมูลทั้งหมดในระบบ
 * ทำไฟล์ PDF การใช้โปรแกรม
-# myproject
-# myproject
-# myproject
+# javafx_sunofthebeach
